@@ -1,3 +1,5 @@
+### StructureMapExample ###
+
 A quick example to serve as a reminder to myself on how to get StructureMap up
 and running in a basic console application.
 
@@ -7,3 +9,10 @@ ICalculator and Calculator example.
 
 If the convention is not followed, explicit registration is needed: shown in
 the ILogger and ApplicationLogger example.
+--------------------------------------------------------------------------------
+### WebStructureMapExample ###
+
+A quick example of getting StructureMap running in a web application.
+
+A very simple PersonRepository gets injected into the HomeController through
+the default naming convention as IPersonRepository.
