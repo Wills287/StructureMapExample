@@ -17,3 +17,12 @@ A quick example of getting StructureMap running in a web application.
 
 A very simple PersonRepository gets injected into the HomeController through
 the default naming convention as IPersonRepository.
+
+--------------------------------------------------------------------------------
+--- CoreStructureMapExample ---
+
+Another example using .NET Core.
+
+ConfigureIoC in the Startup class registers anything using the default naming
+convention, along with an explicit registration for the IMisnamedRepository and
+StuffRepository.

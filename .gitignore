@@ -51,3 +51,6 @@ StructureMapExample/bin/
 StructureMapExample/obj/
 WebStructureMapExample/bin/
 WebStructureMapExample/obj/
+CoreStructureMapExample/bin/
+CoreStructureMapExample/obj/
+CoreStructureMapExample/wwwroot/lib/
